@@ -9,6 +9,7 @@ nav {
     margin-bottom: 36px;
     margin-top: 35px;
     width: theme.$contentMaxWidth;
+    max-width: 100vw;
 }
 
 nav > a {
