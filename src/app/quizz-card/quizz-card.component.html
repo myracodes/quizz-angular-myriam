@@ -1,30 +1,12 @@
-<span class="quizz-container">
-    <span class="img-container">
-        <img src={{quizzes[0].image}} alt="call-center-image">
+<div id="quizz-cards-container">
+    <span class="quizz-container" *ngFor="let quizz of quizzes">
+        <span class="img-container">
+            <img src={{quizz.image}} alt="call-center-image">
+        </span>
+        <h3 class="quizz-title">{{quizz.title}}</h3>
+        <span class="link-container">
+            <a href={{quizz.link}} class="cta-btn">Start quizz</a>
+            <img src="./assets/icons/go-to-link.svg" alt="go to link icon">
+        </span>
     </span>
-    <h3 class="quizz-title">{{quizzes[0].title}}</h3>
-    <span class="link-container">
-        <a href={{quizzes[0].link}} class="cta-btn">Start quizz</a>
-        <img src="./assets/icons/go-to-link.svg" alt="go to link icon">
-    </span>
-</span>
-<span class="quizz-container">
-    <span class="img-container">
-        <img src={{quizzes[1].image}} alt="call-center-image">
-    </span>
-    <h3 class="quizz-title">{{quizzes[1].title}}</h3>
-    <span class="link-container">
-        <a href={{quizzes[1].link}} class="cta-btn">Start quizz</a>
-        <img src="./assets/icons/go-to-link.svg" alt="go to link icon">
-    </span>
-</span>
-<span class="quizz-container">
-    <span class="img-container">
-        <img src={{quizzes[2].image}} alt="call-center-image">
-    </span>
-    <h3 class="quizz-title">{{quizzes[2].title}}</h3>
-    <span class="link-container">
-        <a href={{quizzes[2].link}} class="cta-btn">Start quizz</a>
-        <img src="./assets/icons/go-to-link.svg" alt="go to link icon">
-    </span>
-</span>
+</div>

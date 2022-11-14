@@ -1,11 +1,11 @@
 
-export interface Quizz {
+export interface IQuizz {
     title: string,
     link: string,
     image: string
 }
 
-export const quizzes: Quizz[] = [
+export const quizzes: IQuizz[] = [
     {
       title: "Call center",
       link: "home-office",
