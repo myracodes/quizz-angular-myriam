@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+/* font-family: 'Open Sans', sans-serif; */
+/* Regular: 400 */
+/* Semi-bold: 600 */
+/* Bold: 700 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #F6F6F6, #ECECEC);
+    background-repeat: space;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    width: min(1259px, 100vw);
+    margin: 0 auto;
+    min-height: 100vh;
+}
