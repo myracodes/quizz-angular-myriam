@@ -1,3 +1,14 @@
+#quizz-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    max-width: 100%;
+    margin-bottom: 215px;
+}
+
 .quizz-container {
     display: flex;
     flex-direction: column;
