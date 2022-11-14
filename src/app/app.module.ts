@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { QuizzCardComponent } from './quizz-card/quizz-card.component';
 import { QuizzCategoriesComponent } from './quizz-categories/quizz-categories.component';
+import { QuestionCardComponent } from './question-card/question-card.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { QuizzCategoriesComponent } from './quizz-categories/quizz-categories.co
     NavbarComponent,
     QuizzCardComponent,
     QuizzCategoriesComponent,
+    QuestionCardComponent,
   ],
   imports: [
     BrowserModule,
