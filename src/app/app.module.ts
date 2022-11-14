@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { QuizzCardComponent } from './quizz-card/quizz-card.component';
+import { QuizzCategoriesComponent } from './quizz-categories/quizz-categories.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    QuizzCardComponent
+    QuizzCardComponent,
+    QuizzCategoriesComponent,
   ],
   imports: [
     BrowserModule,
