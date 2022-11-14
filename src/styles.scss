@@ -17,6 +17,10 @@ a {
     cursor: pointer;
 }
 
+a:visited {
+    color: unset;
+}
+
 body {
     background-image: linear-gradient(to bottom right, #F6F6F6, #ECECEC);
     background-repeat: space;
@@ -30,4 +34,8 @@ body {
     width: min(1259px, 100vw);
     margin: 0 auto;
     min-height: 100vh;
+}
+
+h1 {
+    margin: unset;
 }
