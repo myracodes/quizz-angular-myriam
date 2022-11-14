@@ -1,9 +1,11 @@
+@use './../../styles.scss' as theme;
 
 #categories-container {
     display: flex;
     flex-direction: row;
     gap: 25px;
     margin-bottom: 26px;
+    width: theme.$contentMaxWidth;
 }
 
 .category {

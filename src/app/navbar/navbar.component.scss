@@ -1,3 +1,5 @@
+@use './../../styles.scss' as theme;
+
 nav {
     display: flex;
     flex-direction: row;
@@ -6,6 +8,7 @@ nav {
     gap: 25px;
     margin-bottom: 36px;
     margin-top: 35px;
+    width: theme.$contentMaxWidth;
 }
 
 nav > a {
