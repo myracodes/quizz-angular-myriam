@@ -1,5 +1,7 @@
 @use './../../styles.scss' as theme;
 
+// @TODO: under 500px, switch navbar to a burger menu
+
 nav {
     display: flex;
     flex-direction: row;
