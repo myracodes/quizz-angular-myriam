@@ -1,9 +1,8 @@
 .question-card {
-    max-width: 1133px;
     display: flex;
     flex-direction: row;
     margin-top: 86px;
-    // margin-bottom: 191px;
+    margin-bottom: 191px;
 }
 
 .illustration-section, .question-section {
@@ -139,6 +138,7 @@
         flex-direction: column-reverse;
         width: 1100px;
         margin: 0 auto;
+        align-items: center;
     }
 
     .illustration-section, .question-section {
@@ -152,6 +152,7 @@
     
     .illustration-section > img {
         max-height: 85%;
+        margin-top: 40%;
 
     }
     
