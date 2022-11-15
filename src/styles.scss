@@ -10,6 +10,12 @@
 
 html {
     font-size: 16px;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, #F6F6F6, #ECECEC);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 a {
@@ -22,7 +28,6 @@ a:visited {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, #F6F6F6, #ECECEC);
     background-repeat: space;
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -33,7 +38,6 @@ body {
     padding: 0;
     width: min(1259px, 100vw);
     margin: 0 auto;
-    min-height: 100vh;
 }
 
 h1 {
