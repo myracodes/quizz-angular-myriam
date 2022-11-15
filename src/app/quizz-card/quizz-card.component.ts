@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { IQuizz, quizzes } from '../quizzes';
 
 @Component({
@@ -7,19 +7,13 @@ import { IQuizz, quizzes } from '../quizzes';
   styleUrls: ['./quizz-card.component.scss']
 })
 
-export class QuizzCardComponent implements OnInit {
+export class QuizzCardComponent  {
 
   constructor() { }
-
   
   @Input()
   quizz!: IQuizz;
 
-  
-  ngOnInit(): void {
-  }
-
   quizzes = quizzes;
-
 
 }

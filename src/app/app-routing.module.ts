@@ -4,8 +4,16 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { QuestionCardComponent } from './question-card/question-card.component';
 
 const routes: Routes = [
-  { path: 'home-office', component: QuestionCardComponent },
-  { path: '', component: HomepageComponent },
+  {
+    path: 'home-office',
+    title: 'Home office quizz',
+    component: QuestionCardComponent
+  },
+  {
+    path: '',
+    title: 'APMP - homepage',
+    component: HomepageComponent
+  },
 ];
 
 @NgModule({
