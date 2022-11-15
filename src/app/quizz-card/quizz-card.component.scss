@@ -17,6 +17,11 @@
     height: 425px;
     background-color: #FFFFFF;
     border-radius: 29px;
+    transition: border ease-in-out .1s;
+
+    &:hover {
+        border: 3px solid #B34180;
+    }
 }
 
 .img-container {
