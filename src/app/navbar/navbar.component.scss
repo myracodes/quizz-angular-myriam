@@ -1,6 +1,7 @@
 @use './../../styles.scss' as theme;
 
 // @TODO: under 500px, switch navbar to a burger menu
+$navFontSize: 1.125rem;
 
 nav {
     display: flex;
@@ -16,6 +17,7 @@ nav {
 
 nav > a {
     display: flex;
+    font-size: $navFontSize;
 }
 
 .navlink {
@@ -30,7 +32,11 @@ select {
     padding: 0;
     border: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: $navFontSize;
     appearance: none;
     width: fit-content;
+}
+
+i {
+    margin-left: 5px;
 }
