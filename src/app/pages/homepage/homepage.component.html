@@ -6,7 +6,7 @@
 
 
 <div id="categories-container">
-    <app-quizz-categories *ngFor="let category of categories" [category]="category"></app-quizz-categories>
+    <app-quizz-categories *ngFor="let category of categories" [category]="category" (click)="setActive(category)"></app-quizz-categories>
 </div>
 
 <div id="quizz-cards-container">

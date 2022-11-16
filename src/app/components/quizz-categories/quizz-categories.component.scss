@@ -7,13 +7,9 @@
     text-transform: capitalize;
 }
 
-.category:first-child {
-    margin-left: 3px;
-    margin-right: 7px;
-}
-
 .category.active {
     font-weight: 700;
+    margin-right: 7px;
 }
 
 .category.active:after {
