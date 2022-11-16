@@ -5,7 +5,9 @@
 </p>
 
 
-<app-quizz-categories></app-quizz-categories>
+<div id="categories-container">
+    <app-quizz-categories *ngFor="let category of categories" [category]="category"></app-quizz-categories>
+</div>
 
 <div id="quizz-cards-container">
     <app-quizz-card *ngFor="let quizz of quizzes" [quizz]="quizz"></app-quizz-card>

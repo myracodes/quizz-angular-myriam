@@ -1,13 +1,4 @@
-@use './../../styles.scss' as theme;
-
-#categories-container {
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-    margin-bottom: 26px;
-    width: theme.$contentMaxWidth;
-    max-width: 100vw;
-}
+@use './../../../styles.scss' as theme;
 
 .category {
     font-size: 1.25rem;

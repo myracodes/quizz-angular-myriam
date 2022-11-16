@@ -1,3 +1,1 @@
-<div id="categories-container">
-    <span *ngFor="let category of categories" class="category" [ngClass]="{'active': category.active}" id={{category.name}}>{{category.name}}</span>
-</div>
+<span class="category" [ngClass]="{'active': category.active}" id={{category.name}}>{{category.name}}</span>
