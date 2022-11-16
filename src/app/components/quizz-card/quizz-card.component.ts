@@ -7,7 +7,8 @@ import { IQuizz } from '../../shared/models/quizz';
   styleUrls: ['./quizz-card.component.scss']
 })
 
-export class QuizzCardComponent  {  
+export class QuizzCardComponent  {
+  
   @Input()
   quizz!: IQuizz;
 
