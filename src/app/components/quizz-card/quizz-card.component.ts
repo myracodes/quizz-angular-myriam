@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { quizzes } from '../quizzes';
-import { IQuizz } from '../shared/models/quizz';
+import { IQuizz } from '../../shared/models/quizz';
 
 @Component({
   selector: 'app-quizz-card',
@@ -8,11 +7,8 @@ import { IQuizz } from '../shared/models/quizz';
   styleUrls: ['./quizz-card.component.scss']
 })
 
-export class QuizzCardComponent  {
-  
+export class QuizzCardComponent  {  
   @Input()
   quizz!: IQuizz;
-
-  quizzes = quizzes;
 
 }

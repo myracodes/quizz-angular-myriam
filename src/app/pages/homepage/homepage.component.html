@@ -1,6 +1,3 @@
-<head>
-    <title>Quizz - Home page</title>
-</head>
 <h1 class="page-title">Quizz available for your profile</h1>
 <p class="page-subtitle">
     Select a quizz, and answer the list of questions. <br>
@@ -11,5 +8,5 @@
 <app-quizz-categories></app-quizz-categories>
 
 <div id="quizz-cards-container">
-    <app-quizz-card></app-quizz-card>
+    <app-quizz-card *ngFor="let quizz of quizzes" [quizz]="quizz"></app-quizz-card>
 </div>
