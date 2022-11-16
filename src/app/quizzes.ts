@@ -1,9 +1,4 @@
-
-export interface IQuizz {
-    title: string,
-    link: string,
-    image: string
-}
+import { IQuizz } from "./shared/models/quizz";
 
 export const quizzes: IQuizz[] = [
     {

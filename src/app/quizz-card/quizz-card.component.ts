@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { IQuizz, quizzes } from '../quizzes';
+import { quizzes } from '../quizzes';
+import { IQuizz } from '../shared/models/quizz';
 
 @Component({
   selector: 'app-quizz-card',
@@ -8,8 +9,6 @@ import { IQuizz, quizzes } from '../quizzes';
 })
 
 export class QuizzCardComponent  {
-
-  constructor() { }
   
   @Input()
   quizz!: IQuizz;
