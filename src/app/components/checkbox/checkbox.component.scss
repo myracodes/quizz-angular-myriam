@@ -1,0 +1,21 @@
+.label-and-box-container {
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    font-size: 1.125rem;
+}
+
+.label-and-box-container > input {
+    border: 1px solid #C2C2C2;
+    border-radius: 2px;
+    margin-right: 5px;
+    margin-top: 6px;
+    align-self: baseline;
+    accent-color: #822559;
+}
+
+.label-and-box-container > label {
+    text-align: start;
+    min-height: 48px;
+    margin-bottom: 27px;
+}

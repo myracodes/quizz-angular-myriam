@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { homeOfficeOptions } from 'src/question-cards/home-office';
 
 @Component({
   selector: 'app-question-card',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class QuestionCardComponent {
 
+  options = homeOfficeOptions;
+  
 }

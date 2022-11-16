@@ -8,6 +8,7 @@ import { QuizzCardComponent } from './components/quizz-card/quizz-card.component
 import { QuizzCategoriesComponent } from './components/quizz-categories/quizz-categories.component';
 import { QuestionCardComponent } from './components/question-card/question-card.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
+import { CheckboxComponent } from './components/checkbox/checkbox.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
     QuizzCategoriesComponent,
     QuestionCardComponent,
     HomepageComponent,
+    CheckboxComponent,
   ],
   imports: [
     BrowserModule,
