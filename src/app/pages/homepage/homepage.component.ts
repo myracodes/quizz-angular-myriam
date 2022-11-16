@@ -20,7 +20,6 @@ export class HomepageComponent  {
     })
     let selectedCategoryIndex = categories.indexOf(category);
     categories[selectedCategoryIndex].active = true;
-    console.log("clickety click")
   }
 
 }
