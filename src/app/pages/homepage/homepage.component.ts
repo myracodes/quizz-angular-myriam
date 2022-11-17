@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { categories } from 'src/app/quizz-categories';
-import { ICategory } from 'src/app/shared/models/quizz-categories';
+import { ICategory } from 'src/app/shared/models/quizz-category';
 import { quizzes } from '../../quizzes';
 
 @Component({

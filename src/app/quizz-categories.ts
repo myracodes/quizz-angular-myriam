@@ -1,4 +1,4 @@
-import { ICategory } from "./shared/models/quizz-categories";
+import { ICategory } from "./shared/models/quizz-category";
 
 export const categories: ICategory[] = [
     {

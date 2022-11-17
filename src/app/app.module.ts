@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { QuizzCardComponent } from './components/quizz-card/quizz-card.component';
-import { QuizzCategoriesComponent } from './components/quizz-categories/quizz-categories.component';
+import { QuizzCategoryComponent } from './components/quizz-category/quizz-category.component';
 import { QuestionCardComponent } from './components/question-card/question-card.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
@@ -15,7 +15,7 @@ import { CheckboxComponent } from './components/checkbox/checkbox.component';
     AppComponent,
     NavbarComponent,
     QuizzCardComponent,
-    QuizzCategoriesComponent,
+    QuizzCategoryComponent,
     QuestionCardComponent,
     HomepageComponent,
     CheckboxComponent,
